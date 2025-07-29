@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Utkarsh Rai - Web Developer Portfolio. Passionate about creating engaging digital experiences and building robust solutions.">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript, React, Node.js">
+    <meta name="author" content="Utkarsh Rai">
+    <title>Utkarsh Rai | Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="darkmode-switch/style.css">
+    <script src="script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.1/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-[#22223b] text-white py-8 pb-4 text-center shadow-md">
+        <h1 class="text-3xl font-bold">My Portfolio</h1>
+        <p class="text-[#9a8c98] text-lg my-2 mb-6 font-light">Web Developer & Designer</p>
+        <button id="theme-switch">
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
+    </button>
+    </header>
+    <main class="bg-[#181825] min-h-screen flex flex-col items-center">
+        <section class="profile" id="home">
+            <div class="profile-pic-placeholder">
+                <img src="jk.jpeg" alt="Utkarsh Rai profile picture" id="profile-pic" loading="lazy">
+            </div>
+            <div class="about-me">
+                <h2>About Me</h2>
+                <p>
+                    As a passionate Web Developer, what started as a captivating hobby has blossomed into my chosen career path. I thrive on bringing ideas to life through code and crafting engaging digital experiences.
+                    <br><br>
+                    Committed to continuous growth and building robust solutions, I am actively expanding my skillset into DevOps practices to understand the full development lifecycle and streamline deployment. Simultaneously, I am diligently learning Data Structures and Algorithms (DSA) to sharpen my problem-solving abilities and optimize code performance, ensuring a strong foundation for a thriving career in technology.
+                </p>
+            </div>
+        </section>
+        <section class="projects bg-[#232339] text-gray-100 rounded-2xl shadow-lg p-8 my-8 w-full max-w-2xl">
+            <h2 class="text-2xl font-semibold mb-4">Projects</h2>
+            <p><a class="text-[#9a8c98] hover:text-[#f2e9e4] transition-colors" href="https://github.com/DamT0wn" target="_blank" rel="noopener">View all projects on GitHub →</a></p>
+            <ul class="list-disc pl-6 mt-4">
+                <li><strong>Project 1:</strong> Ecommerce website
+                using Html, Css, Javascript, Node.js, React.js</li>
+                <li><strong>Project 2:</strong> Portfoliowebsite
+                    using Html, Css, Javascript, Node.js, React.js.</li>
+                <li><strong>Project 3:</strong> Calculator
+                    using Html, Css, Javascript, Node.js, React.js</li>
+            </ul>
+        </section>
+        <section class="experience bg-[#232339] text-gray-100 rounded-2xl shadow-lg p-8 my-8 w-full max-w-2xl">
+            <h2 class="text-2xl font-semibold mb-4">Experience</h2>
+            <p><a class="text-[#9a8c98] hover:text-[#f2e9e4] transition-colors" href="https://www.linkedin.com/in/utkarsh-rai-698a57220/" target="_blank" rel="noopener">View full experience on LinkedIn →</a></p>
+            <ul class="list-disc pl-6 mt-4">
+                <li><strong> Founder </strong> at Traffikah (2024- 2025)<br>Trafficah is a dynamic digital marketing agency where, as a founder, I played a pivotal role in shaping our vision and strategies. My focus was on developing comprehensive digital marketing solutions that consistently deliver measurable results for our clients. I specialized in leveraging a full spectrum of digital tactics, including SEO, PPC, social media marketing, content creation, and website development, to boost online visibility, attract targeted audiences, and convert leads into loyal customers.</li>
+                <li><strong>Web Dev Intern </strong> Codsoft (1 june 2025 - 1 July 2025)<br>As a Web Development Intern at CodSoft, I'm actively engaged in building and enhancing web solutions. My role involves assisting the development team with various tasks, including front-end and back-end development, bug fixing, and implementing new features. I'm gaining practical experience with modern web technologies and frameworks, contributing to real-world projects, and continuously honing my coding and problem-solving skills in a collaborative environment.</li>
+            </ul>
+        </section>
+        <section class="certifications bg-[#232339] text-gray-100 rounded-2xl shadow-lg p-8 my-8 w-full max-w-2xl">
+            <h2 class="text-2xl font-semibold mb-4">Certifications</h2>
+            <p><a class="text-[#9a8c98] hover:text-[#f2e9e4] transition-colors" href="https://www.linkedin.com/in/utkarsh-rai-698a57220/" target="_blank" rel="noopener">View certifications on LinkedIn →</a></p>
+            <div class="certificates-gallery" id="certificates-gallery">
+                 
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#181825] text-[#9a8c98] text-center py-8 mt-12">
+        <p>&copy; 2025 Utkarsh Rai. All rights reserved.</p>
+    </footer>
+</body>
+</html>
